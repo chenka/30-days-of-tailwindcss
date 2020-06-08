@@ -35,12 +35,12 @@ export default {
         {
           img: "images/day-1.png",
           title: "Statistics",
-          href: "ui/day-1/public/index.html"
+          href: "/30-days-of-tailwindcss/ui/day-1/public/index.html"
         },
         {
           img: "images/day-4.png",
           title: "File Manager - Cloud Storage",
-          href: "ui/day-2/public/index.html"
+          href: "/30-days-of-tailwindcss/ui/day-2/public/index.html"
         }
       ]
     };
