@@ -38,6 +38,16 @@ export default {
           href: "/30-days-of-tailwindcss/ui/day-1/public/index.html"
         },
         {
+          img: "images/day-2.png",
+          title: "Animal Songs Playlist",
+          href: "/30-days-of-tailwindcss/ui/day-2/public/index.html"
+        },
+        {
+          img: "images/day-3.png",
+          title: "Food Review",
+          href: "/30-days-of-tailwindcss/ui/day-3/public/index.html"
+        },
+        {
           img: "images/day-4.png",
           title: "File Manager - Cloud Storage",
           href: "/30-days-of-tailwindcss/ui/day-2/public/index.html"
