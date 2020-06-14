@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <title>Welcome to Tailwind!</title>
+  </head>
+  <body class="antialiased bg-blue" style="font-family: 'Roboto', sans-serif;">
+    <div class="flex justify-around h-screen py-10">
+      <div class="container max-w-sm p-4 bg-gray-200">
+        <div class="mb-3 text-lg font-bold">Enter Your Mobile</div>
+        <div class="mb-3 text-xs text-gray-600">
+          To get your own credit card just do three simple steps
+        </div>
+        <form class="relative flex items-center mb-8 text-2xl">
+          <input type="number" class="w-full px-3 py-2 pl-8 shadow text-red" />
+          <button
+            type="reset"
+            class="absolute right-0 mr-3 border-none outline-none"
+          >
+            <i class="text-gray-400 fas fa-times"></i>
+          </button>
+          <div class="absolute ml-3 text-red">
+            +
+          </div>
+        </form>
+        <div class="gap-4 text-2xl font-bold text-center container-numbers">
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            1
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            2
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            3
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            4
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            5
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            6
+          </div>
+          <div
+            class="text-white shadow-md cursor-pointer bg-red hover:bg-red hover:text-white"
+          >
+            7
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            8
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            9
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            <i class="text-gray-400 fas fa-arrow-left"></i>
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            10
+          </div>
+          <div
+            class="bg-white shadow-md cursor-pointer hover:bg-red hover:text-white"
+          >
+            <i class="text-gray-400 fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container max-w-sm py-4 bg-gray-200">
+        <div class="flex justify-between px-4">
+          <div><i class="fas fa-arrow-left"></i></div>
+          <div class="text-lg font-bold">Your Cards</div>
+          <div class="flex">
+            <div
+              class="w-6 mr-3 text-center text-pink-400 bg-gray-300 rounded-full"
+            >
+              <i class="far fa-bell"></i>
+            </div>
+            <div><i class="text-gray-400 fas fa-ellipsis-v"></i></div>
+          </div>
+        </div>
+        <div class="px-4 mt-4 text-white cards">
+          <div class="p-3 text-xs rounded-lg shadow-lg card bg-purple-light">
+            <div class="flex justify-between">
+              <div>Balance</div>
+              <div class="w-16">
+                <img
+                  src="https://3dpng.com/wp-content/uploads/2020/05/Mastercard-Free.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="mt-2 text-xl font-bold">$10,2456.85</div>
+            <div class="my-4">0000-0000-010-0000</div>
+            <div class="flex justify-between mt-3">
+              <div>
+                <div>Card holder name</div>
+                <div class="font-bold">John DOe</div>
+              </div>
+              <div>
+                <div>Expire date</div>
+                <div class="font-bold">02/23</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center mt-4">
+          <div
+            class="w-2 h-2 mr-1 rounded-full shadow-2xl opacity-25 bg-purple-light"
+          ></div>
+          <div
+            class="w-2 h-2 mr-1 rounded-full shadow-2xl bg-purple-dark"
+          ></div>
+          <div
+            class="w-2 h-2 rounded-full shadow-2xl opacity-25 bg-purple-light"
+          ></div>
+        </div>
+        <div class="flex justify-between px-4 my-4 text-sm text-gray-500">
+          <div>Popular Operation</div>
+          <div>More</div>
+        </div>
+        <div class="px-4">
+          <div
+            class="flex items-center justify-between p-2 px-4 mb-1 bg-white rounded-md shadow-xs"
+          >
+            <div class="w-2/12">
+              <i class="text-2xl fas fa-exchange-alt text-red"></i>
+            </div>
+            <div class="w-10/12">
+              <div class="font-bold">Money Transfer</div>
+              <div class="text-sm text-gray-500">Transfer to another card</div>
+            </div>
+            <div><i class="text-gray-500 fas fa-chevron-right"></i></div>
+          </div>
+          <div
+            class="flex items-center justify-between p-2 px-4 mb-1 bg-white rounded-md shadow-xs"
+          >
+            <div class="w-2/12">
+              <i class="text-2xl fas fa-mobile-alt text-purple-light"></i>
+            </div>
+            <div class="w-10/12">
+              <div class="font-bold">Money Top up</div>
+              <div class="text-sm text-gray-500">Sned money to any mobile</div>
+            </div>
+            <div><i class="text-gray-500 fas fa-chevron-right"></i></div>
+          </div>
+          <div
+            class="flex items-center justify-between p-2 px-4 mb-1 bg-white rounded-md shadow-xs"
+          >
+            <div class="w-2/12">
+              <i class="text-2xl text-orange-500 fas fa-ticket-alt"></i>
+            </div>
+            <div class="w-10/12">
+              <div class="font-bold">Tickets</div>
+              <div class="text-sm text-gray-500">
+                Buy tickets and get 5% discount
+              </div>
+            </div>
+            <div><i class="text-gray-500 fas fa-chevron-right"></i></div>
+          </div>
+          <div
+            class="flex items-center justify-between p-2 px-4 mb-1 bg-white rounded-md shadow-xs"
+          >
+            <div class="w-2/12">
+              <i
+                class="text-2xl text-indigo-500 fas fa-file-invoice-dollar"
+              ></i>
+            </div>
+            <div class="w-10/12">
+              <div class="font-bold">Electric Bill</div>
+              <div class="text-sm text-gray-500">
+                Give vill and get 5% discount
+              </div>
+            </div>
+            <div><i class="text-gray-500 fas fa-chevron-right"></i></div>
+          </div>
+        </div>
+        <div class="flex justify-between px-4 my-4 text-sm text-gray-500">
+          <div>Last Transactions</div>
+          <div>View all</div>
+        </div>
+        <div
+          class="flex items-center justify-between p-2 px-6 mb-1 bg-white rounded-md shadow-xs"
+        >
+          <div class="w-2/12">
+            <div
+              class="font-bold text-purple-dark bg-pink-300 rounded-full w-8 h-8 justify-center items-center flex"
+            >
+              M
+            </div>
+          </div>
+          <div class="w-10/12">
+            <div class="font-bold">Mr. Salimon</div>
+            <div class="text-sm text-gray-500">
+              April 21, 2019, Tuesday
+            </div>
+          </div>
+          <div class="text-sm">-2000.00</div>
+        </div>
+        <div
+          class="flex items-center justify-between p-2 px-6 bg-white rounded-md shadow-xs"
+        >
+          <div class="w-2/12">
+            <div
+              class="font-bold text-green-500 bg-green-200 rounded-full w-8 h-8 justify-center items-center flex"
+            >
+              U
+            </div>
+          </div>
+          <div class="w-10/12">
+            <div class="font-bold">Mr. Uujiolaka</div>
+            <div class="text-sm text-gray-500">
+              April 21, 2019, Tuesday
+            </div>
+          </div>
+          <div class="text-sm">-2000.00</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

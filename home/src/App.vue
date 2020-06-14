@@ -50,7 +50,12 @@ export default {
         {
           img: "images/day-4.png",
           title: "File Manager - Cloud Storage",
-          href: "/30-days-of-tailwindcss/ui/day-2/public/index.html"
+          href: "/30-days-of-tailwindcss/ui/day-4/public/index.html"
+        },
+        {
+          img: "images/day-5.png",
+          title: "Online Wallet App",
+          href: "/30-days-of-tailwindcss/ui/day-5/public/index.html"
         }
       ]
     };
